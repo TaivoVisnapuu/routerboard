@@ -1,0 +1,14 @@
+.wrap-head,.wrap-menu,.wrap-spot,.filesbox,#imgthumbs,.blinds_container,#largeShow,.related_products_title,.product_box{display:none !important;}
+.wrap-body{padding-top:0px;}
+.blinds_slideshow ul{padding:0;}
+.blinds_slideshow li:first-child{display:inline !important;}
+.pictures_list br{display:none;}
+.wrap-footer .alpha{display:none;}
+.proddescription .alpha{width:25%;float:left;text-align:center;}
+.proddescription .omega{width:75%;float:left;}
+.proddescription .omega p,ol{font-size:14px;}
+.proddescription .alpha img{max-width:90%;max-height:200px;width:expression(80+"%");}
+.prodtable{clear:both;}
+.prodtable table{font-size:14px;border-spacing:0px;border-left:1px solid black;border-bottom:1px solid black;}
+.prodtable table th{border-right:1px solid black;border-top:1px solid black;}
+.prodtable table td{border-top:1px solid black;padding:3px;border-right:1px solid black;}

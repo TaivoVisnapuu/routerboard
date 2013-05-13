@@ -1,0 +1,24 @@
+.perf th, .perf td {
+	border-collapse: collapse;
+	border: 1px solid;
+}
+
+.perf td {
+	padding: 3px;
+	min-width: 70px;
+	color: #4F6B72;
+	font-size: 0.9em;
+}
+
+.perf thead td {
+	font-weight: bold;
+	text-align: center;
+}
+
+.perf tbody td {
+	text-align: right;
+}
+
+.perf .ita {
+	font-style: italic;
+}

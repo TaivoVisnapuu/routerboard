@@ -1,0 +1,13 @@
+﻿.ww-selectbox a{ text-decoration:none;  font-family:Arial;  font-size:13px;  font-weight:bold}
+.ww-selectbox .ww-select-area a span.center{ background-color:#fff;  background-image:-moz-linear-gradient(center top,#FFF,#eee 5px,#eee 5px,#ccc);  background-image:-webkit-gradient(linear,left top,left bottom,from(#FFF),color-stop(0.2,#eee),color-stop(0.5,#eee),to(#ccc));   padding:5px 40px 5px 30px;  border:1px solid #aaa;  border-radius:5px;  box-shadow:0 2px 3px #333;  color:#444}
+.ww-selectbox .ww-select-area a:hover span.center, .ww-selectbox .ww-select-areaactive a span.center{ background-color:#eee;  background-image:-moz-linear-gradient(center top,#FFF,#eee 5px,#eee 5px,#eee);  background-image:-webkit-gradient(linear,left top,left bottom,from(#FFF),color-stop(0.2,#eee),color-stop(0.5,#eee),to(#eee));  color:#777;  box-shadow:0 2px 3px #555}
+.ww-selectbox .ww-select-areaactive a span.center{ border-radius:5px 5px 0 0}
+.ww-selectbox .ww-select-area a span.arrow{ border-left:1px solid #AAA;  height:8px;  margin:5px 0 0 -23px;  padding:2px 0 2px 5px;  position:absolute;  width:8px;  background:url("arrow_bottom.png") no-repeat scroll 5px 2px transparent;  z-index:99}
+.ww-selectbox .ww-select-areaactive a span.arrow{background:url("arrow_top.png") no-repeat scroll 5px 2px transparent}
+
+.ww-selectbox .ww-select-options{ background-color:#FFFBD9;  position:absolute;   border:1px solid #aaa;  border-top:none;  margin-top:4px;  border-radius:0 0 5px 5px;  box-shadow:0 2px 3px #555;  z-index:100}
+.ww-selectbox .ww-select-options ul{margin:0; padding:0}
+.ww-selectbox .ww-select-options ul li { list-style:none; }
+.ww-selectbox .ww-select-options ul li.option a{ color:#777;  text-align:center;  display:block;  padding:5px 15px;  border-bottom:dashed 1px #aaa}
+.ww-selectbox .ww-select-options ul li.option a:hover{ background-color:#FFF8BA}
+.ww-selectbox .ww-select-options ul li.option a.last{border:none; border-radius:0 0 5px 5px}
